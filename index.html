@@ -28,7 +28,16 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
-
+  <html>
+    <body>
+      <script src="https://accounts.google.com/gsi/client" async defer></script>
+      <div id="g_id_onload"
+           data-client_id="781132362834-unru6m1tjqlg5qmf0h5v3mbqj3rc6aac.apps.googleusercontent.com"
+           data-callback="handleCredentialResponse">
+      </div>
+      <div class="g_id_signin" data-type="standard"></div>
+    </body>
+  </html>
   <!-- Add the Google Sign-In Client-ID meta tag -->
   <!-- <meta name="google-signin-client_id" content="781132362834-kkvhhaln546oap6asmhs7vmmdbqil2h2.apps.googleusercontent.com"> -->
 
