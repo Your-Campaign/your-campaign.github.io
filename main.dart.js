@@ -98718,30 +98718,27 @@ return A.N(null,r)}})
 return A.O($async$kz,r)},
 I(a){var s,r,q,p,o,n,m=null,l="Verification Status",k=t.w,j=A.aG(a,m,k).w.a.b,i=A.aG(a,m,k).w.a.a
 k=this.r
-if(k==="Received"){k=i/3
-s=A.dF(10)
-r=j+i
-q=new A.aS(new A.aB(k,0,k,0),A.b4(m,new A.aS(B.af,A.bJ(A.a([A.aR(l,m,m,m,A.iF(B.i,r/60,B.O),m,m),A.aR("Received",m,m,m,A.iF(B.K8,r/80,B.aD),m,m),A.CH("https://lottie.host/92ee084b-2a16-4db7-8381-ab28ce896fcd/eYxUwZIjFj.json",m,m,m,m,m,m,m,m,m,m,j/4,m,m,m,m,m,m,m,i/2)],t.p),B.n,B.u,B.q),m),B.k,m,m,new A.bB(B.j,m,m,s,B.da,m,m,B.H),m,j/2.4,m,m,m,m,m,i-300),m)}else if(k==="contact requested"){k=i/3
-s=A.dF(10)
-r=j+i
-p=r/80
-q=new A.aS(new A.aB(k,0,k,0),A.b4(m,new A.aS(B.af,A.bJ(A.a([A.aR(l,m,m,m,A.iF(B.i,r/60,B.O),m,m),A.aR("We contacted you via",m,m,m,A.iF(B.i,p,B.aD),B.x,m),A.aR(J.c_(this.d.a.c.h(0,"email")),m,m,m,A.iF(B.i,p,B.aD),B.x,m),A.CH("https://lottie.host/93649c57-1679-4523-ac56-0e5405a32811/KFpWQnZt2X.json",m,m,m,m,m,m,m,m,m,m,j/4,m,m,m,m,m,m,m,i/2)],t.p),B.n,B.u,B.q),m),B.k,m,m,new A.bB(B.j,m,m,s,B.da,m,m,B.H),m,j/2.3,m,m,m,m,m,i-300),m)}else{s=t.p
-if(k==="verified"){k=i/3
-r=A.dF(10)
-p=j+i
-q=new A.aS(new A.aB(k,0,k,0),A.b4(m,new A.aS(B.af,A.bJ(A.a([A.aR(l,m,m,m,A.iF(B.i,p/60,B.O),m,m),A.aR("VERIFIED",m,m,m,A.iF(B.u8,p/80,B.O),B.x,m),A.CH("https://lottie.host/30e0bcbe-53cc-46ca-b828-dbb345af9647/xOMTri7QzP.json",m,m,m,m,m,m,m,m,m,m,j/4,m,m,m,m,m,m,m,i/2)],s),B.n,B.u,B.q),m),B.k,m,m,new A.bB(B.j,m,m,r,B.da,m,m,B.H),m,j/2.3,m,m,m,m,m,i-300),m)}else{k=A.a([new A.dj(0,B.aS,B.ep,B.f,1)],t.sq)
-r=A.dF(10)
-q=A.b4(m,new A.aS(B.af,A.bJ(A.a([A.b4(m,A.aHJ(A.aR("Not yet verified?",m,m,m,A.iF(B.aJ,m,B.O),m,m),B.ik),B.k,m,m,m,m,j/10,m,m,m,m,m,i),new A.fe(new A.azQ(a),"Enlist now!",m,B.aJ,m)],s),B.n,B.tV,B.q),m),B.k,m,m,new A.bB(B.j,m,m,r,k,m,m,B.H),m,j/3,m,m,m,m,m,i)}}k=j+i
+if(k==="Received"){k=A.dF(10)
+s=j+i
+r=new A.aS(new A.aB(20,0,20,0),A.b4(m,new A.aS(B.af,A.bJ(A.a([A.aR(l,m,m,m,A.iF(B.i,s/60,B.O),m,m),A.aR("Received",m,m,m,A.iF(B.K8,s/80,B.aD),m,m),A.CH("https://lottie.host/92ee084b-2a16-4db7-8381-ab28ce896fcd/eYxUwZIjFj.json",m,m,m,m,m,m,m,m,m,m,j/4,m,m,m,m,m,m,m,i/2)],t.p),B.n,B.u,B.q),m),B.k,m,m,new A.bB(B.j,m,m,k,B.da,m,m,B.H),m,j/2.4,m,m,m,m,m,i-300),m)}else if(k==="contact requested"){k=A.dF(10)
+s=j+i
+q=s/80
+r=new A.aS(new A.aB(20,0,20,0),A.b4(m,new A.aS(B.af,A.bJ(A.a([A.aR(l,m,m,m,A.iF(B.i,s/60,B.O),m,m),A.aR("We contacted you via",m,m,m,A.iF(B.i,q,B.aD),B.x,m),A.aR(J.c_(this.d.a.c.h(0,"email")),m,m,m,A.iF(B.i,q,B.aD),B.x,m),A.CH("https://lottie.host/93649c57-1679-4523-ac56-0e5405a32811/KFpWQnZt2X.json",m,m,m,m,m,m,m,m,m,m,j/4,m,m,m,m,m,m,m,i/2)],t.p),B.n,B.u,B.q),m),B.k,m,m,new A.bB(B.j,m,m,k,B.da,m,m,B.H),m,j/2.3,m,m,m,m,m,i-300),m)}else{s=t.p
+if(k==="verified"){k=A.dF(10)
+q=j+i
+r=new A.aS(new A.aB(20,0,20,0),A.b4(m,new A.aS(B.af,A.bJ(A.a([A.aR(l,m,m,m,A.iF(B.i,q/60,B.O),m,m),A.aR("VERIFIED",m,m,m,A.iF(B.u8,q/80,B.O),B.x,m),A.CH("https://lottie.host/30e0bcbe-53cc-46ca-b828-dbb345af9647/xOMTri7QzP.json",m,m,m,m,m,m,m,m,m,m,j/4,m,m,m,m,m,m,m,i/2)],s),B.n,B.u,B.q),m),B.k,m,m,new A.bB(B.j,m,m,k,B.da,m,m,B.H),m,j/2.3,m,m,m,m,m,i-300),m)}else{k=A.a([new A.dj(0,B.aS,B.ep,B.f,1)],t.sq)
+q=A.dF(10)
+r=A.b4(m,new A.aS(B.af,A.bJ(A.a([A.b4(m,A.aHJ(A.aR("Not yet verified?",m,m,m,A.iF(B.aJ,m,B.O),m,m),B.ik),B.k,m,m,m,m,j/10,m,m,m,m,m,i),new A.fe(new A.azQ(a),"Enlist now!",m,B.aJ,m)],s),B.n,B.tV,B.q),m),B.k,m,m,new A.bB(B.j,m,m,q,k,m,m,B.H),m,j/3,m,m,m,m,m,i)}}k=j+i
 s=k/30
-r=A.aR("Welcome",m,m,m,A.bF(B.i,m,s,B.O),B.x,m)
+q=A.aR("Welcome",m,m,m,A.bF(B.i,m,s,B.O),B.x,m)
 p=this.d.a.c
 o=p.h(0,"displayName")
 o.toString
 n=t.p
-s=A.bJ(A.a([r,A.aR(o,m,m,m,A.bF(B.i,m,s,B.O),m,m)],n),B.n,B.u,B.q)
+s=A.bJ(A.a([q,A.aR(o,m,m,m,A.bF(B.i,m,s,B.O),m,m)],n),B.n,B.u,B.q)
 p=p.h(0,"email")
 p.toString
-return A.l8(m,A.agS(A.a([new A.aS(B.aK,s,m),new A.aS(B.aK,A.fg(A.aR(p,m,m,m,A.iF(B.i,k/60,B.O),m,m),m,m),m),new A.aS(B.aK,q,m),new A.aS(B.aK,new A.fe(new A.azR(a),"Logout",A.fE(B.EI,B.j,m,m,m),B.i,m),m)],n)),m)}}
+return A.l8(m,A.agS(A.a([new A.aS(B.aK,s,m),new A.aS(B.aK,A.fg(A.aR(p,m,m,m,A.iF(B.i,k/60,B.O),m,m),m,m),m),new A.aS(B.aK,r,m),new A.aS(B.aK,new A.fe(new A.azR(a),"Logout",A.fE(B.EI,B.j,m,m,m),B.i,m),m)],n)),m)}}
 A.azS.prototype={
 $0(){var s=this.a,r=this.b
 s.f=r.gj3(r).length!==0
