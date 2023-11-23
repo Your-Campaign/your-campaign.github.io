@@ -1,20 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="https://your-campaign.github.io/">
+    <base href="https://your-campaign.github.io/">
   <!-- <base href="/"> -->
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -28,33 +15,47 @@
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
-  <html>
-    <body>
-      <script src="https://accounts.google.com/gsi/client" async defer></script>
-      <div id="g_id_onload"
-           data-client_id="781132362834-unru6m1tjqlg5qmf0h5v3mbqj3rc6aac.apps.googleusercontent.com"
-           data-callback="handleCredentialResponse">
-      </div>
-      <div class="g_id_signin" data-type="standard"></div>
-    </body>
-  </html>
-  <!-- Add the Google Sign-In Client-ID meta tag -->
-  <!-- <meta name="google-signin-client_id" content="781132362834-kkvhhaln546oap6asmhs7vmmdbqil2h2.apps.googleusercontent.com"> -->
+
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+  <script>
+    window.addEventListener('load', function(ev) {
+      // Überprüfe, ob die Plattform ein Mobilgerät ist
+      var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+      // Konfiguriere das Google Sign-In-Widget entsprechend der Plattform
+      var googleSignInConfig = {
+        client_id: "781132362834-unru6m1tjqlg5qmf0h5v3mbqj3rc6aac.apps.googleusercontent.com",
+        callback: "handleCredentialResponse",
+        type: isMobile ? "mobile" : "standard"  // Verwende "mobile" für Mobilgeräte, "standard" für Desktop
+      };
+
+      // Füge das Google Sign-In-Widget hinzu
+      var g_id_onload = document.createElement("div");
+      g_id_onload.id = "g_id_onload";
+      g_id_onload.setAttribute("data-client_id", googleSignInConfig.client_id);
+      g_id_onload.setAttribute("data-callback", googleSignInConfig.callback);
+
+      var g_id_signin = document.createElement("div");
+      g_id_signin.className = "g_id_signin";
+      g_id_signin.setAttribute("data-type", googleSignInConfig.type);
+
+      document.body.appendChild(g_id_onload);
+      document.body.appendChild(g_id_signin);
+    });
+  </script>
 
   <title>your_campaign</title>
   <link rel="manifest" href="manifest.json">
 
   <script>
-    // The value below is injected by flutter build, do not touch.
     var serviceWorkerVersion = "3347651343";
   </script>
-  <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
-</head>
-<body>
+
   <script>
     window.addEventListener('load', function(ev) {
-      // Download main.dart.js
       _flutter.loader.loadEntrypoint({
         serviceWorker: {
           serviceWorkerVersion: serviceWorkerVersion,
