@@ -110280,7 +110280,7 @@ e=A.aW(20)
 g=A.bZ(A.a([A.aS(A.a([new A.c4(B.aH,c,c,new A.W(B.kJ,A.aS(A.a([A.bZ(A.a([i,new A.c4(B.aH,c,c,new A.W(B.kJ,A.al(c,new A.W(B.L,A.aS(A.a([A.a6("Current Participants",c,c,c,A.af(B.e,c,g,B.O),B.o,c),A.a6(B.f.k(s),c,c,c,A.af(B.e,c,f,B.G),B.o,c)],m),B.l,B.a5,B.n),c),B.j,c,c,new A.b7(j,c,k,e,c,c,c,B.x),c,a1,c,c,c,c,c,n),c),c)],m),B.l,B.a5,B.n),A.aS(A.a([A.mT(c,new A.fY(J.cl(a5)),h/30),A.a6(J.cl(a3),c,c,c,A.af(B.e,c,g,B.G),B.o,c)],m),B.l,B.p,B.n)],m),B.l,B.p,B.n),c),c)],m),B.l,B.p,B.n)],m),B.l,B.a5,B.n)
 h=A.a6("Description",c,c,c,A.af(c,c,h/60,B.y),B.fU,c)
 a=a6==null?"":a6
-q=new A.W(B.L,A.al(c,new A.W(B.Z,A.aS(A.a([a0,g,new A.c4(B.aH,c,c,A.al(c,A.aS(A.a([new A.c4(B.aH,c,c,new A.W(B.Z,h,c),c),new A.c4(B.aH,c,c,new A.W(B.LI,A.a6(a,c,c,c,A.af(c,c,18,B.O),B.bA,c),c),c)],m),B.l,B.p,B.n),B.j,c,c,c,c,c,c,c,c,c,c,l/1.5),c)],m),B.l,B.p,B.n),c),B.j,c,c,new A.b7(p,c,c,o,c,c,c,B.x),c,q,c,c,c,c,c,c),c)
+q=new A.W(B.L,A.al(c,new A.W(B.Z,A.aS(A.a([a0,g,new A.c4(B.aH,c,c,A.al(c,A.aS(A.a([new A.c4(B.aH,c,c,new A.W(B.Z,h,c),c),new A.c4(B.aH,c,c,new A.W(B.LI,A.a6(a,c,c,c,A.af(c,c,c,B.O),B.bA,c),c),c)],m),B.l,B.p,B.n),B.j,c,c,c,c,c,c,c,c,c,c,l/1.5),c)],m),B.l,B.p,B.n),c),B.j,c,c,new A.b7(p,c,c,o,c,c,c,B.x),c,q,c,c,c,c,c,c),c)
 a=q}else{q=d.c
 p=d.e
 o=A.wr(240,240,240,1)
